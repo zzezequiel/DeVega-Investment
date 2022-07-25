@@ -1,0 +1,204 @@
+
+html body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+.cont-nav {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.logo {
+   height: 80px;
+}
+.logo img{
+    height: 100%;
+}
+.nav-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.nav {
+    margin-top: 2vh;
+}
+.nav i {
+    font-size: 2.5vw;
+    color: #cbb346;
+}
+
+.banner img {
+    
+    height: 25vw;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+.title-list{
+    text-align: center;
+}
+.list {
+    width: fit-content;
+    margin: 0 5vw 0 20vw;
+}
+.img-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    
+  }
+  
+.walk {
+    color: white;
+    padding-top: 1vw;
+    text-align: center;
+    background-color: #333333;
+  }
+
+.walk img{
+    height: 5vw;
+}
+
+#cont-downloads {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2vw;
+}
+.pdf-photos h4 {
+font-size: 2.5vw;
+}
+.pdf-photos i {
+    font-size: 4vw;
+}
+
+.pdf-plans h4 {
+    font-size: 2.5vw;
+}
+.pdf-plans i {
+    font-size: 5vw;
+    margin-left: 1vw;
+}
+
+footer {
+    color: white;
+    background-color: #333333;
+}
+#cont-footer {
+    padding: 2vw;
+    margin-left: 2vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.address {
+    display: grid;
+    grid-template-rows: repeat(4 1fr);
+}
+.address i {
+    margin: 0.5vw;
+    font-size: 2vw;
+}
+.address a {
+    font-size: 2vw;
+    text-decoration-line: none;
+}
+.cont-web {
+    text-align: center;
+}
+.web {
+    width: 17vw;
+}
+a {
+    color:#cbb346
+}
+
+
+.cont-map {
+    text-align: center;
+}
+
+.cont-bottom{
+    
+    color: black;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.copy {
+    color: black;
+    font-size: 2vw;
+}
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 3vw;
+    margin-top: 1.5vw;
+}
+
+.policy {
+    margin-top: 2vw;
+    font-size: 1.5vw;
+}
+
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+    .cont-map iframe {
+        height: auto;
+        width: auto;
+    }
+    .nav i {
+        font-size: 7vw;
+    }
+    
+    .copy {
+        font-size: 3vw;
+    }
+    .icons {
+        
+        font-size: 7vw;
+       
+    }
+    
+    .policy {
+        margin-top: 2vw;
+        font-size: 3vw;
+    }
+    .walk img {
+        height: 15vw;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .cont-map iframe {
+        height: auto;
+        width: auto;
+    }
+    .nav i {
+        font-size: 7vw;
+    }
+  }
