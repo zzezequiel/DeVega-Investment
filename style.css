@@ -40,13 +40,38 @@ html body {
     text-align: center;
 }
 .list {
-    width: fit-content;
-    margin: 0 5vw 0 20vw;
+    width: 100%;
+   
+    
+}
+.list-text {
+    font-size: 1.2vw;
+    width: 40%;
+    margin: 0 30vw 0 30vw;
+    
+    text-justify: distribute-all-lines;
+}
+.razgos{
+    
+    width: 100%;
+    text-align: center;
+    
+}
+.razgos-text{
+    font-size: 1.2vw;
+    width: 40%;
+    margin: 0 30vw 0 30vw;
+    text-align: center;
+    text-justify: distribute-all-lines;
+}
+.price {
+    text-align: center;
 }
 .img-grid {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    justify-content: center;
   }
   
   /* Create four equal columns that sits next to each other */
@@ -168,6 +193,19 @@ a {
     }
     .nav i {
         font-size: 7vw;
+    }
+    .list-text {
+        font-size: 4vw;
+        width: 90%;
+        margin: 4vw;
+    }
+    .razgos-text {
+        font-size: 4vw;
+        width: 100%;
+        margin: 0;
+    }
+    .address a {
+        font-size: 3.2vw;
     }
     
     .copy {
