@@ -242,4 +242,7 @@ a {
     .nav i {
         font-size: 7vw;
     }
-  }
+    .walk img {
+        height: 15vw;
+    }
+}
